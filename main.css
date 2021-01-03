@@ -20,12 +20,10 @@
 .image{
     width:100%;
     height:auto;
-    background-color: black;
     border:2px solid red;
 }
 .download{
     color:#ff0000;
-    background-color: black;
     font-family: "Neue Haas Grotesk Text Bd", Helvetica, "Helvetica Neue", Arial, sans-serif;
     font-weight: 1000px;
     font-size: 2vw;
@@ -39,45 +37,40 @@
     border:2px solid red;
 }
 .mobile{
-    background-color: black;
     border:2px solid red;
 }
 .one{
     color:#ff0000;
-    background-color: black;
     float:left;
     font-family: "Neue Haas Grotesk Text Bd", Helvetica, "Helvetica Neue", Arial, sans-serif;
     font-weight: 700;
-    font-size:3vw;
-    line-height: 44px;
+   font-size:4vw;
+    line-height: 4vw;
     padding-top: 13%;
     border:2px solid red;
 }
 .two{
     font-family: "Neue Haas Grotesk Text Bd", Helvetica, "Helvetica Neue", Arial, sans-serif;
     font-weight: 700;
-    font-size:3vw;
-    line-height: 44px;
+   font-size:4vw;
+    line-height: 4vw;
     color: #eee3c1;
-    background-color: black;
     float:left;
     border:2px solid red;
 }
 .par{
-    background-color: black;
     border:2px solid red;
     width:100%;
-    height:350px;
+   height:auto;
+   margin-bottom: 20px;
 }
 .how-to{
-    background-color: black;
     border:2px solid red;
 }
 .first-mobile{
     width:100%;
-    height:850px;
+    height:auto;
     border:2px solid red;
-    background-color: black;
     
 }
 .img-mobile{
@@ -103,8 +96,8 @@
 .mobile1b{
     font-family:"Neue Haas Grotesk Text Bd", Helvetica, "Helvetica Neue", Arial, sans-serif;
     font-weight: 700;
-    font-size:44px;
-    line-height: 44px;
+   font-size:4vw;
+    line-height: 4vw;
     color:#eee3c1;
     
     padding-left:2%;
@@ -113,9 +106,9 @@
 }
 .for{
     width:100%;
-    height:850px;
+    height:auto;
     border:2px solid red;
-    background-color: black;
+    margin-bottom: 20px;
 }
 
 .second-a-1{
@@ -131,8 +124,8 @@
 .second-a-2{
     font-family:"Neue Haas Grotesk Text Bd", Helvetica, "Helvetica Neue", Arial, sans-serif;
     font-weight: 700;
-    font-size:44px;
-    line-height: 44px;
+   font-size:4vw;
+    line-height: 4vw;
     color:#eee3c1;
     
     padding-left:2%;
@@ -160,21 +153,18 @@
    
     padding-left:2%;
     border:2px solid red;
-    background-color: black;
 }
 .while2{
     font-family:"Neue Haas Grotesk Text Bd", Helvetica, "Helvetica Neue", Arial, sans-serif;
     font-weight: 700;
-    font-size:44px;
-    line-height: 44px;
+   font-size:4vw;
+    line-height: 4vw;
     color:#eee3c1;
     
     padding-left:2%;
     border:2px solid red;
-    background-color: black;
 }
 .while3{
-    background-color: black;
 }
 
 dl.habits {
@@ -206,19 +196,18 @@ dl.habits {
     float: right;
   }
   .oh{
-      background-color: black;
+
   }
 
 .mika1{
     font-family:"Neue Haas Grotesk Text Bd", Helvetica, "Helvetica Neue", Arial, sans-serif;
     font-weight: 700;
-    font-size:44px;
-    line-height: 44px;
+    font-size:4vw;
+    line-height: 4vw;
     color:#eee3c1;
     
     padding-left:2%;
     border:2px solid red;
-    background-color: black;
     float:left;   
 }
 .mika1b{
@@ -230,13 +219,12 @@ dl.habits {
     float: left;
     font-family:"Neue Haas Grotesk Text Bd", Helvetica, "Helvetica Neue", Arial, sans-serif;
     font-weight: 700;
-    font-size:44px;
-    line-height: 44px;
+    font-size:4vw;
+    line-height: 4vw;
     color:#d0021b;
     
     padding-left:2%;
     border:2px solid red;
-    background-color: black;
 
 }
 hr{
@@ -249,6 +237,7 @@ hr{
     height: 700px;
     width: 80%;
     position: relative;
+    overflow: hidden;
 }
 .h1a img{
     position: absolute;
@@ -356,7 +345,7 @@ hr{
     left:9%;
     font-family:"Neue Haas Grotesk Text Bd", Helvetica, "Helvetica Neue", Arial, sans-serif;
     font-weight: 700;
-    font-size:3vw;
+   font-size:4vw;
     color:#eee3c1;
     top:0;
     z-index:10;
@@ -422,9 +411,59 @@ hr{
     z-index:10;
 }
 
+@media only screen and (max-width:1200px){
+    .hourly{
+        height:500px;
+    }
+    .h1a img{
+        width:400px;
+        height:800px;
+    }
+    .h1b img{
+        width:500px;
+        height:800px;
+    }
+}
 
+@media only screen and (max-width:1000px){
+    .hourly{
+        height:420px;
+    }
+    .h1a img{
+        width:300px;
+        height:700px;
+    }
+    .h1b img{
+        width:300px;
+        height:700px;
+    }
+}
 
+@media only screen and (max-width:800px){
+    .hourly{
+        height:350px;
+    }
+    .h1a img{
+        width:200px;
+        height:100px;
+    }
+    .h1b img{
+        width:200px;
+        height:400px;
+    }
+}
 
-
-
+@media only screen and (max-width:600px){
+    .hourly{
+        height:250px;
+    }
+    .h1a img{
+        width:150px;
+        height:200px;
+    }
+    .h1b img{
+        width:150px;
+        height:200px;
+    }
+}
 

@@ -1,0 +1,430 @@
+*{
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+.image{
+    width:100%;
+    height:auto;
+    background-color: black;
+    border:2px solid red;
+}
+.download{
+    color:#ff0000;
+    background-color: black;
+    font-family: "Neue Haas Grotesk Text Bd", Helvetica, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 1000px;
+    font-size: 2vw;
+    line-height: 2vw;
+    text-align:right;
+    border:2px solid red;
+    margin-top:3%;
+}
+.mobile{
+    float:left;
+    border:2px solid red;
+}
+.mobile{
+    background-color: black;
+    border:2px solid red;
+}
+.one{
+    color:#ff0000;
+    background-color: black;
+    float:left;
+    font-family: "Neue Haas Grotesk Text Bd", Helvetica, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 700;
+    font-size:3vw;
+    line-height: 44px;
+    padding-top: 13%;
+    border:2px solid red;
+}
+.two{
+    font-family: "Neue Haas Grotesk Text Bd", Helvetica, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 700;
+    font-size:3vw;
+    line-height: 44px;
+    color: #eee3c1;
+    background-color: black;
+    float:left;
+    border:2px solid red;
+}
+.par{
+    background-color: black;
+    border:2px solid red;
+    width:100%;
+    height:350px;
+}
+.how-to{
+    background-color: black;
+    border:2px solid red;
+}
+.first-mobile{
+    width:100%;
+    height:850px;
+    border:2px solid red;
+    background-color: black;
+    
+}
+.img-mobile{
+    float:left;
+    border:2px solid red;
+
+}
+.mobile1{
+    float:left;
+    
+    border:2px solid red;
+}
+.mobile1a{
+    font-family:"Neue Haas Grotesk Text Bd", Helvetica, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 700;
+    font-size:217px;
+    line-height: 217px;
+    color:#d0021b;
+   
+    padding-left:2%;
+    border:2px solid red;
+}
+.mobile1b{
+    font-family:"Neue Haas Grotesk Text Bd", Helvetica, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 700;
+    font-size:44px;
+    line-height: 44px;
+    color:#eee3c1;
+    
+    padding-left:2%;
+    border:2px solid red;
+    height:auto;
+}
+.for{
+    width:100%;
+    height:850px;
+    border:2px solid red;
+    background-color: black;
+}
+
+.second-a-1{
+    font-family:"Neue Haas Grotesk Text Bd", Helvetica, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 700;
+    font-size:217px;
+    line-height: 217px;
+    color:#d0021b;
+   
+    padding-left:2%;
+    border:2px solid red;
+}
+.second-a-2{
+    font-family:"Neue Haas Grotesk Text Bd", Helvetica, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 700;
+    font-size:44px;
+    line-height: 44px;
+    color:#eee3c1;
+    
+    padding-left:2%;
+    border:2px solid red;
+    
+}
+
+.second-a{
+    float:left;
+}
+.second-b{
+    float:left;
+}
+.second-c{
+    float:left;
+}
+
+.while1{
+    font-family:"Neue Haas Grotesk Text Bd", Helvetica, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 700;
+    font-size:217px;
+    line-height: 217px;
+    color:#d0021b;
+    text-align:center;
+   
+    padding-left:2%;
+    border:2px solid red;
+    background-color: black;
+}
+.while2{
+    font-family:"Neue Haas Grotesk Text Bd", Helvetica, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 700;
+    font-size:44px;
+    line-height: 44px;
+    color:#eee3c1;
+    
+    padding-left:2%;
+    border:2px solid red;
+    background-color: black;
+}
+.while3{
+    background-color: black;
+}
+
+dl.habits {
+    padding: 0;
+    margin: 0;
+    border-top: 1px solid #efe4c1;
+    font-family:"Neue Haas Grotesk Text Bd", Helvetica, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 700;
+    color:#eee3c1;
+    padding-left: 2%;
+    padding-right: 2%;
+    
+  }
+  
+  dl.habits:hover {
+    background: #d1021b;
+  }
+  
+  dt.habit,
+  dd.spent-hours {
+    display: inline-block;
+    margin: 2px 0 4px 0;
+    font-size: 22px;
+    letter-spacing: -1px;
+    text-decoration: none;
+  }
+  
+  dd.spent-hours {
+    float: right;
+  }
+  .oh{
+      background-color: black;
+  }
+
+.mika1{
+    font-family:"Neue Haas Grotesk Text Bd", Helvetica, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 700;
+    font-size:44px;
+    line-height: 44px;
+    color:#eee3c1;
+    
+    padding-left:2%;
+    border:2px solid red;
+    background-color: black;
+    float:left;   
+}
+.mika1b{
+    
+    color:#d0021b;
+}
+.f1{
+    margin-top:40px;
+    float: left;
+    font-family:"Neue Haas Grotesk Text Bd", Helvetica, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 700;
+    font-size:44px;
+    line-height: 44px;
+    color:#d0021b;
+    
+    padding-left:2%;
+    border:2px solid red;
+    background-color: black;
+
+}
+hr{
+    width:100%;
+    height:4px;
+    color:#eee3c1;
+    background-color: #eee3c1;
+}
+.animate{
+    height: 700px;
+    width: 80%;
+    position: relative;
+}
+.h1a img{
+    position: absolute;
+    height: 918px;
+    width: 500px;
+    right: 0;
+    margin: 0;
+    animation-name: one;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+.h1b img{
+    position: absolute;
+    height: 918px;
+    width: 600px;
+    left: 0;
+    margin: 0;
+    animation-name: h-transition;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes one{
+    0%{
+        right: 0;
+        bottom: 0;
+        }
+    15%{
+        height: 350px;
+        bottom: 0;
+        right: 0;
+        }
+    30%{
+        height: 350px;
+        right: 65%;
+        bottom: 0;
+    }
+    45%{
+        height: 700px;
+        right: 62%;
+        bottom: 0;
+    }
+    60%{
+        height: 350px;
+        right: 62%;
+        bottom: 50%;
+    }
+    85%{
+        height: 350px;
+        right: 0;
+        bottom: 50%;
+    }
+    100%{
+        height: 700px;
+        right: 0%;
+        bottom: 0;
+    }
+}
+
+@keyframes h-transition{
+    0%{
+        left: 0;
+        top: 0;
+        height: 700px;
+    }
+    15%{
+        height: 350px;
+        top: 0;
+        left: 0;
+    }
+    30%{
+        height: 350px;
+        left: 45%;
+        top: 0;
+    }
+    45%{
+        height: 700px;
+        left: 45%;
+        top: 0;
+    }
+    60%{
+        height: 350px;
+        left: 45%;
+        top: 50%;
+    }
+    85%{
+        height: 350px;
+        left: 0;
+        top: 50%;
+    }
+    100%{
+        height: 700px;
+        left: 0%;
+        top: 0;
+    }
+}
+
+.hourly{
+    position:relative;
+    width:100%;
+    height:580px;
+}
+.hourly1{
+    position:absolute;
+    left:9%;
+    font-family:"Neue Haas Grotesk Text Bd", Helvetica, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 700;
+    font-size:3vw;
+    color:#eee3c1;
+    top:0;
+    z-index:10;
+}
+
+.hourly2{
+    position:absolute;
+    fill:#d0021b;
+    width:100%;
+
+}
+.hourly3 .p4{
+    position:absolute;
+    color:#eee3c1;
+    font-family:"Neue Haas Grotesk Text Bd", Helvetica, "Helvetica Neue", Arial, sans-serif;
+    font-size:2vw;
+    z-index: 12;
+    width:15%;
+    bottom: 0%;
+    left:65%;
+}
+
+.hourly3 .p3{
+    position:absolute;
+    color:#eee3c1;
+    font-family:"Neue Haas Grotesk Text Bd", Helvetica, "Helvetica Neue", Arial, sans-serif;
+    font-size:2vw;
+    z-index: 12;
+    width:15%;
+    bottom: 0%;
+    left:45%;
+}
+
+.hourly3 .p2{
+    position:absolute;
+    color:#eee3c1;
+    font-family:"Neue Haas Grotesk Text Bd", Helvetica, "Helvetica Neue", Arial, sans-serif;
+    font-size:2vw;
+    width:15%;
+    bottom: 0%;
+    left:25%;
+}
+
+.hourly3 .p1{
+    position:absolute;
+    color:#eee3c1;
+    font-family:"Neue Haas Grotesk Text Bd", Helvetica, "Helvetica Neue", Arial, sans-serif;
+    font-size:2vw;
+    z-index: 12;
+    width:15%;
+    bottom: 0;
+    left:0%;
+    
+}
+.video-mobile{
+    position: relative;
+}
+
+.videos-mobile{
+    position:absolute;
+    left:10%;
+    top:100px;
+    z-index:10;
+}
+
+
+
+
+
+
+
